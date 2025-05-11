@@ -3,9 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url(asset/Montserrat-Regular.ttf);
+}
 .container{
-    width: 1118px;
-    height: 50px;
+    width: 1118px; 
     margin: 0 auto;
     background-color: aqua;
+}
+.menu{
+    display: flex; 
+    align-items: center;
+    padding: 27px 0;
+}
+.menu-left ul{
+    display: flex; 
+    column-gap: 30px;
+}
+.menu-left ul li a{
+     font-family: "Montserrat-Regular";
+     color: #141B4D;
+     font-size: 15px;
+}
+.arrow{
+    display: flex; 
+    gap: 8px;
 }
