@@ -1,38 +1,102 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul li{
+
+ul li {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 @font-face {
     font-family: "Montserrat-Regular";
     src: url(asset/Montserrat-Regular.ttf);
 }
-.container{
-    width: 1118px; 
+
+.container {
+    width: 1118px;
     margin: 0 auto;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
-.menu{
-    display: flex; 
-    align-items: center;
+
+.menu {
+    display: flex;
+    justify-content: space-between;
     padding: 27px 0;
 }
-.menu-left ul{
-    display: flex; 
+
+.menu-left ul {
+    display: flex;
     column-gap: 30px;
 }
-.menu-left ul li a{
-     font-family: "Montserrat-Regular";
-     color: #141B4D;
-     font-size: 15px;
+
+.menu-left ul li a {
+    font-family: "Montserrat-Regular";
+    color: #141B4D;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
 }
-.arrow{
-    display: flex; 
+
+.arrow {
+    display: flex;
     gap: 8px;
+}
+
+/* menu right site */
+.menu-right {
+    display: flex;
+    align-items: center;
+}
+
+.menu-right ul {
+    display: flex;
+    column-gap: 18.5px;
+}
+
+.menu-right ul li a {
+    font-family: "Montserrat-Regular";
+    text-transform: uppercase;
+    color: #141B4D;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    font-size: 12px;
+}
+
+.border {
+    width: 1px;
+    height: 30px;
+    background-color: #5F6C72;
+    margin: 0 16px 0 24px;
+}
+
+.card {
+    position: relative;
+}
+
+.card .material-symbols-outlined {
+    font-size: 28px;
+}
+
+.badge {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: -7px;
+    right: -5px;
+    font-size: 10px;
 }
