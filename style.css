@@ -126,8 +126,7 @@ a {
 }
 
 .product-left-up img {
-    width: 100%;
-    height: 100%;
+    width: 100%; 
 }
 
 .product-right {
@@ -155,7 +154,7 @@ a {
     display: flex;
 }
 
-.star ul li a {
+.star ul li i {
     color: #FFB525;
 }
 
@@ -165,16 +164,20 @@ a {
     color: #3F474B;
 }
 
-.product-right h1 {
+.product-right .heading {  
     font-family: "Outfit-Medium";
     font-size: 60px;
     color: #141B4D;
     letter-spacing: -1px;
-    margin-top: 13.94px;
+    margin-top: 13.94px; 
 }
 
 .product-right .profile {
+    width: 438px;
     margin-top: 13px;
+    background-color: #F2F2F6;
+    padding: 15px;
+    border-radius: 5px;
 }
 
 .product-right .profile img {
@@ -194,7 +197,7 @@ a {
     margin-top: 19px;
 }
 
-.product-right ul li i {
+ .rules ul li i {
     color: #3385FF;
 }
 
@@ -209,4 +212,65 @@ a {
     height: 1px;
     background-color: #dbdbdb;
     margin: 15px 0 15px 0;
+}
+/* ========== card ======== */
+.card{
+    margin-bottom: 100px;
+}
+.price{
+    display: flex;
+    align-items: end;
+    column-gap: 5px;
+    margin-top: 41px;
+}
+.price del{
+    font-family: "Outfit-Regular";
+    font-size: 28px;
+    color: #666666;
+}
+.price h2{
+    font-family: "Outfit-Medium";
+    font-size: 38px;
+    color: #CF1010;
+}
+.card-btn{
+    display: flex;
+    margin-top: 27px;
+}
+.card-btn button{
+    width: 282px;
+    height: 57px;
+    font-family: "Outfit-Medium";
+    font-size: 22px; 
+    border-radius: 5px;
+    outline: none;
+    background-color: #1DB469;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
+.quantity{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+.quantity button{
+    width: 30px;
+    height: 30px; 
+    background-color: #f1f1f5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #141B4D; 
+    font-family: "Outfit-Medium";
+    font-size: 25px;
+    cursor: pointer;
+}
+.quantity .count{   
+    color: #141B4D; 
+    font-family: "Outfit-Medium";
+    font-size: 30px;
+    padding: 0 20px;
 }
