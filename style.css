@@ -288,7 +288,7 @@ a {
     color: #141B4D;
     font-family: "Outfit-Medium";
     font-size: 30px;
-    padding: 0 20px;
+    margin: 0 20px; 
 }
 
 .payment {
