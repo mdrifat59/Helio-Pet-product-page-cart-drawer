@@ -115,6 +115,7 @@ a {
     display: flex;
     column-gap: 21px;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 
 .product-left {
@@ -133,7 +134,6 @@ a {
     display: flex;
     column-gap: 10px;
     margin-top: 10px;
-    padding-bottom: 10px;
 }
 
 .product-right {
@@ -289,4 +289,42 @@ a {
     font-family: "Outfit-Medium";
     font-size: 30px;
     padding: 0 20px;
+}
+
+.payment {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 19px;
+}
+
+.payment img {
+    width: 33.14px;
+    height: 22.73px;
+}
+
+.commit {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.commit-fast {
+    display: flex;
+    align-items: center;
+}
+
+.commit-fast p {
+    font-family: "Outfit-Regular";
+    font-size: 15px;
+    color: #5D5D5D;
+}
+
+.commit-fast span {
+    color: #3385FF;
+}
+
+.commit-fast img {
+    width: 20px;
+    height: 20px;
 }
