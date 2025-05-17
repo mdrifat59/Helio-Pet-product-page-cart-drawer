@@ -10,9 +10,39 @@
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="style.css">
-</head>
-
+</head> 
 <body>
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-drawer-content">
+            <span class="close-drawer" id="closeDrawer"><i class="fa-regular fa-circle-xmark"></i></span>
+            <h2>Your Cart</h2>  
+            <div class="cart-details">
+                <div class="cart-name">
+                    <h3>Product</h3>
+                    <h3>Total</h3>
+                </div>
+                <hr>
+                <div class="cart-product">
+                    <div class="cart-product-left">
+                        <img src="assets/image/DSC05696 1.png" alt="">
+                        <div class="cart-product-details">
+                            <h3>Helio Pet Device ™</h3>  
+                            <!-- <span class="discount"></span> -->
+                            <div class="quantity">
+                                <button class="mainus">-</button>
+                                <span class="count" id="counts"></span>
+                                <button class="plus">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-product-right">
+                        <!-- <span id="discount"></span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="main">
         <div class="container">
             <div class="menu">
@@ -81,14 +111,14 @@
                     </div>
                     <div class="card">
                         <div class="price">
-                            <del>$ <span class="reguler"></span></del>
-                            <h2>$ <span class="discount"></span></h2>
+                            <del>$ <span class="reguler" id="reguler"></span></del>
+                            <h2>$ <span class="discount" id="discount"></span></h2>
                         </div>
                         <div class="card-btn">
-                            <button>Add to Cart</button>
+                            <button id="add_btn">Add to Cart</button>
                             <div class="quantity">
                                 <button class="mainus">-</button>
-                                <span class="count"></span>
+                                <span class="count" id="count"></span>
                                 <button class="plus">+</button>
                             </div>
                         </div>
